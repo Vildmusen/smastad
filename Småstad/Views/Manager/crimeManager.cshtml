@@ -1,0 +1,27 @@
+﻿@model Errand
+@{ 
+    Layout = "_ManagerLayout";
+}
+
+    <h2>Detaljer för ärendet</h2>
+    <p class="info">Du är inloggad som avdelningschef</p>
+
+    @await Component.InvokeAsync("ShowErrand", ViewBag.ID)
+
+    <section id="bottomColumn">
+
+        <h3>Redigera ärende</h3>
+
+        <form asp-controller="Manager" asp-action="AssignErrand" method="post">
+            Ange handläggare:
+            <select asp-for="EmployeeId" asp-items='@new
+                    SelectList(ViewBag.EmployeeList,"EmployeeId","EmployeeName")'>
+                <option selected="selected">Välj</option>
+            </select>
+            <p><input type="checkbox" asp-for="InvestigatorAction" /> 
+            Ingen åtgärd: 
+            <input asp-for="InvestigatorInfo" value="Ange anledning" /></p>
+            <p><input class="button" type="submit" value="Spara" /></p>
+        </form>
+
+    </section>

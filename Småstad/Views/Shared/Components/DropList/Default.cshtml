@@ -1,0 +1,9 @@
+﻿@model List<string>
+
+<select name="status">
+    <option selected="selected">Välj alla</option>
+    @foreach (var item in Model)
+    {
+        <option value="">@item</option>
+    }
+</select>

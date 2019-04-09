@@ -1,0 +1,11 @@
+C:\Users\vikto\source\repos\Småstad\Småstad\bin\Debug\netcoreapp2.0\Småstad.deps.json
+C:\Users\vikto\source\repos\Småstad\Småstad\bin\Debug\netcoreapp2.0\Småstad.runtimeconfig.json
+C:\Users\vikto\source\repos\Småstad\Småstad\bin\Debug\netcoreapp2.0\Småstad.runtimeconfig.dev.json
+C:\Users\vikto\source\repos\Småstad\Småstad\bin\Debug\netcoreapp2.0\Småstad.dll
+C:\Users\vikto\source\repos\Småstad\Småstad\bin\Debug\netcoreapp2.0\Småstad.pdb
+C:\Users\vikto\source\repos\Småstad\Småstad\obj\Debug\netcoreapp2.0\Småstad.csproj.CoreCompileInputs.cache
+C:\Users\vikto\source\repos\Småstad\Småstad\obj\Debug\netcoreapp2.0\Småstad.AssemblyInfoInputs.cache
+C:\Users\vikto\source\repos\Småstad\Småstad\obj\Debug\netcoreapp2.0\Småstad.AssemblyInfo.cs
+C:\Users\vikto\source\repos\Småstad\Småstad\obj\Debug\netcoreapp2.0\Småstad.dll
+C:\Users\vikto\source\repos\Småstad\Småstad\obj\Debug\netcoreapp2.0\Småstad.pdb
+C:\Users\vikto\source\repos\Småstad\Småstad\obj\Debug\netcoreapp2.0\Småstad.csprojAssemblyReference.cache
